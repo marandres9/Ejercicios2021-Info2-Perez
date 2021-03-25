@@ -26,7 +26,6 @@ int main(int argc, char const *argv[])
         suma += entrada;     //acumula las entradas del usuario
         contador++;     
     }
-    
     prom = suma / contador;
     printf("El promedio de los numeros ingresados es: %i", prom);
 
