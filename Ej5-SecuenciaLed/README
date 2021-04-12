@@ -1,0 +1,12 @@
+    El circuito esta hecho en TinkerCad y tiene el codigo de main.cpp
+Mediante el siguiente link se puede acceder al circuito:
+https://www.tinkercad.com/things/lbukjTTKKUB
+
+    Se detecta la pulsacion del boton cuando se terminan de ejecutar 
+las secuencias. Lo ideal pulsar el boton antes de que le secuencia 
+llegue al 3er led y mantenerlo hasta que termine la secuencia y
+se detecte el cambio.
+
+    Las secuencias son:
+Secuencia A: rojo-azul-verde
+Secuencia B: rojo-verde-azul
