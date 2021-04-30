@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #include <Arduino.h>
 
 int red = 11;
