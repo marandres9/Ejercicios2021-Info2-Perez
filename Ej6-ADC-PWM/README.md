@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 El circuito consiste en un led RGB controlado por 3 potenciometros.
 Cada potenciometro regula el brillo de un color del led, ya sea rojo, verde o azul.
 Las salidas de los potenciometros son leidas por el ADC del arduino, luego, 
