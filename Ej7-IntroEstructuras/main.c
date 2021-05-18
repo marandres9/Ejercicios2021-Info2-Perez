@@ -22,7 +22,7 @@ int main()
 
 //  apartado A
     printf("Ingrese el apellido del cliente: >");
-    scanf("%s", &registroCliente.apellido);
+    scanf("%s", registroCliente.apellido);
     printf("El apellido del cliente es: %s\n\n", registroCliente.apellido);
 
 //  apartado B
@@ -50,10 +50,54 @@ int main()
     scanf("%i", &(ptrCliente->numeroCliente));
     printf("El numero del cliente es: %i\n\n", ptrCliente->numeroCliente);
 
-//  apartado G
+// apartado G
     printf("Ingrese el numero telefonico del cliente: >");
-    scanf("%s", ptrCliente->personal.numeroTelefonico);
+    scanf("%s", &registroCliente.personal.numeroTelefonico);
+    printf("El numero telefonico del cliente es: %s\n\n", registroCliente.personal.numeroTelefonico);
+
+//  apartado H
+    printf("Ingrese el numero telefonico del cliente: >");
+    scanf("%s", &ptrCliente->personal.numeroTelefonico);
     printf("El numero telefonico del cliente es: %s\n\n", ptrCliente->personal.numeroTelefonico);
+
+// apartado I
+    printf("Ingrese la direccion del cliente: >");
+    scanf("%s", registroCliente.personal.direccion);
+    printf("La direccion del cliente es: %s\n\n", registroCliente.personal.direccion);
+
+// apartado J
+    printf("Ingrese la direccion del cliente: >");
+    scanf("%s", ptrCliente->personal.direccion);
+    printf("La direccion del cliente es: %s\n\n", ptrCliente->personal.direccion);
+// apartado K
+    printf("Ingrese la ciudad del cliente: >");
+    scanf("%s", &registroCliente.personal.ciudad);
+    printf("La ciudad del cliente es: %s\n\n", registroCliente.personal.ciudad);
+    
+// apartado L
+    printf("Ingrese la ciudad del cliente: >");
+    scanf("%s", (*ptrCliente).personal.ciudad);
+    printf("La ciudad del cliente es: %s\n\n", ptrCliente->personal.ciudad);
+
+// apartado M:
+    printf("Ingrese el estado del cliente: >");
+    scanf("%s", registroCliente.personal.estado);
+    printf("La ciudad del cliente es: %s\n\n", registroCliente.personal.estado);
+
+// apartado N
+    printf("Ingrese el estado del cliente: >");
+    scanf("%s", ptrCliente->personal.estado);
+    printf("La ciudad del cliente es: %s\n\n", ptrCliente->personal.estado);
+
+// apartado O
+    printf("Ingrese el codigo postal del cliente: >");
+    scanf("%s", registroCliente.personal.codigoPostal);
+    printf("El codigo postal del cliente es: %s\n\n", registroCliente.personal.codigoPostal);
+
+// apartado P
+    printf("Ingrese el codigo postal del cliente: >");
+    scanf("%s", ptrCliente->personal.codigoPostal);
+    printf("El codigo postal del cliente es: %s\n\n", ptrCliente->personal.codigoPostal);
 
     return 0;
 }
