@@ -31,4 +31,6 @@ int main()
     px->imaginario = 0;
     printf("Accediendo a la posicion 18 del vector modificada mediante puntero\n");
     printf("%.2f + %.2fj\n", cx[17].real, cx[17].imaginario);
+
+    return 0;
 }
