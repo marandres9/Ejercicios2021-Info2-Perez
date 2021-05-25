@@ -54,3 +54,8 @@ dkms.conf
 # VSCode
 *.vscode
 *.json
+
+# Platform-IO
+include
+lib
+test
