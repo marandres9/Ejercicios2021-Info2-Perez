@@ -17,7 +17,7 @@ int main()
     char cond = 'y';   // para checkear
 
     FILE* fptr;
-    fptr = fopen("test.dat", "w");
+    fptr = fopen("datos.dat", "w");
     if(fptr == NULL){
         printf("No se pudo abrir el archivo");
         return -1;
@@ -54,7 +54,7 @@ int main()
     printf("Archivo cerrado\n\n");
 
     // abrir archivo
-    fptr = fopen("test.dat", "r");
+    fptr = fopen("datos.dat", "r");
     if(fptr == NULL){
         printf("No se pudo abrir el archivo");
         return -1;
