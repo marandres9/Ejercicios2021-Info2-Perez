@@ -8,6 +8,9 @@ void setup() {
   Serial.begin(9600);
   while(!Serial);
 
+  // Serial.setTimeout(2000); // si no especificamos el timeout usa el valor por defecto (1000 ms)
+                              // significa que si no ingresamos un dato nuevo en 1 seg deja de aceptar y devuelve
+                              // el string ingresado hasta el momento
   pinMode(pinLED, OUTPUT);  
 }
 
