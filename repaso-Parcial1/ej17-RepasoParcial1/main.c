@@ -16,7 +16,7 @@ void agProd(FILE* fptr, int* n) {
     lista = malloc(sizeof(struct Prod));
 
     printf("Ingresar prod %d: \n\tdescripcion\n\tcodigo\n\tprecio\n", (*n+1));
-    scanf("%s", (*lista).desc);
+    scanf("%s", lista->desc);
     scanf("%d", &(*lista).codigo);
     scanf("%f", &(*lista).precio);
 
