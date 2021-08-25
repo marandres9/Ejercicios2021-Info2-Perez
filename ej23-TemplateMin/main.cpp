@@ -7,7 +7,7 @@ T min(T a=3, T b=5) {
 
 int main() {
     std::cout << min(int(2)) << std::endl;
-    std::cout << min(float(5.1)) << std::endl;
+    std::cout << min(5.2) << std::endl;
     
     return 0;
 }
