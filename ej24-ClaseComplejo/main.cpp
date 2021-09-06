@@ -1,4 +1,3 @@
-#include <iostream>
 #include "complejo.h"
 
 int main() {

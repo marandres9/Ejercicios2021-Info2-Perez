@@ -6,7 +6,7 @@ class Complejo {
     double q;
 
     public:
-        Complejo();
+         Complejo();
         Complejo(double re, double im);
 
         void suma(Complejo c);
