@@ -6,12 +6,11 @@ class Complejo {
     double q;
 
     public:
-         Complejo();
-        Complejo(double re, double im);
+    Complejo(double re=0, double im=0);
 
-        void suma(Complejo c);
-        void resta(Complejo c);
-        void imprimir();
+    void suma(Complejo c);
+    void resta(Complejo c);
+    void imprimir();
 };
 
 #endif

@@ -1,11 +1,6 @@
 #include "complejo.h"
 #include <iostream>
 
-Complejo::Complejo() {
-    p = 0;
-    q = 0;
-}
-
 Complejo::Complejo(double re, double im) {
     p = re;
     q = im;

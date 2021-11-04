@@ -16,10 +16,10 @@ public:
 
     // metodos
     void setRectangulo(float, float);
-    void getRectangulo();
+    void getRectangulo() const;
 
-    bool estaDentroDe(Rectangulo);
-    float areaInterseccion(Rectangulo);
+    bool estaDentroDe(Rectangulo) const;
+    float areaInterseccion(Rectangulo) const;
     
 };
 
